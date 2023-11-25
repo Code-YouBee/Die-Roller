@@ -1,0 +1,42 @@
+body {
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.die {
+    margin: auto;
+    margin-top: 1%;
+    width: 550px;
+    height: 550px;
+    border: 7px double black;
+    border-radius: 80px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.diagonal {
+    transform: rotate(45deg);
+}
+
+.one80 {
+    transform: rotate(90deg);
+    align-items: center;
+    justify-content: center;
+}
